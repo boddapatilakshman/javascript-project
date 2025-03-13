@@ -37,7 +37,7 @@
 let allProducts = []; // Store all food items globally
 
 // Fetch and Display Food Items
-fetch("food.json")
+fetch("https://boddapatilakshman.github.io/javascript-project/food.json")
     .then((res) => res.json())
     .then((data) => {
         if (!data.products || !Array.isArray(data.products)) {
